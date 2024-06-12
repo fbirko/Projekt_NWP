@@ -1,0 +1,203 @@
+@font-face {
+	font-family: myFont;
+	src: url("font/nasalization-rg.otf");
+}
+body, html {
+	font-family: myFont;
+	margin: 0;
+	font-size: 16px;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+main{
+	padding: 15px;
+}
+header {
+	display: block;
+	width: 100%;
+}
+.hero-image {
+	background-image: url("slike/background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 920px;
+
+}
+
+.banner-image {
+	background-image: url("slike/banner.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 150px;
+
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(255, 255, 255);
+}
+li {
+	float: left;
+
+}
+li a {
+	display: inline-block;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+
+
+li a:hover {
+	background-color: rgb(255, 255, 255);
+
+}
+
+.hover_line::after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background-color: crimson;
+	transition: width .1s;
+	margin: auto;
+	left: 0;
+	right: 100%;
+}
+
+.hover_line:hover::after{
+	width: 100%;
+	transition: width .1s;
+	right: 0;
+}
+
+footer {
+	background-color: black;
+	color: whitesmoke;
+}
+
+time {
+	font-size: 90%;
+	font-style: italic;
+	
+}
+
+div.image {
+	max-width: 100%;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 25px;
+	height: 300px;
+	
+
+  }
+
+  
+  
+  div.container {
+	text-align: left;
+	padding: 5px 10px;
+	
+	
+  }
+
+
+  div.gallery {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 480px;
+	padding: 50px;
+	
+  }
+  
+  div.gallery:hover {
+	border: 1px solid #777;
+  }
+  
+  div.gallery img {
+	height: auto;
+	max-width: 100%;
+  }
+  
+  div.desc {
+	padding: 0px;
+	text-align: center;
+
+  }
+
+  input[type=text], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+	width: 100%;
+	background-color: #000000;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #9c9c9c;
+  }
+div.contact{
+    border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+div.gallery_news {
+	margin: 20px;
+	border: 1px solid #ccc;
+	float:  none ;
+	width: 220px;
+  }
+  
+  div.gallery_news:hover {
+	border: 1px solid #777;
+  }
+  
+  div.gallery_news img {
+	width: 100%;
+	height: auto;
+  }
+  
+  div.desc_news {
+	padding: 5px;
+	text-align: center;
+	font-size: 12px;
+  }
+
+
+
+  
